@@ -54,3 +54,21 @@
 .icons {
   margin: 2px;
 }
+
+.iconsInfo {
+  border: 0;
+  background-color: #026aa7;
+}
+
+#plusWork {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .15);
+  color: white;
+}
+
+#plusWork::placeholder {
+  color: white;
+  opacity: 0.5;
+}
