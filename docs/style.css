@@ -1,12 +1,12 @@
 .container-fluid {
   background-color: #026aa7;
   height: 100vh;
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
 }
 
 #headerLogos {
   background-color: rgba(0, 0, 0, .15);
   height: 7vh;
-  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
   padding: 3px;
 }
 
@@ -71,4 +71,28 @@
 #plusWork::placeholder {
   color: white;
   opacity: 0.5;
+}
+
+#listBtn {
+  background-color: green;
+  margin-top: 10px;
+}
+
+#plusWorkBefore {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .15);
+  color: black;
+}
+
+#plusWorkBefore::placeholder {
+  opacity: 0.5;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.card {
+  margin: 2px;
 }
