@@ -27,10 +27,11 @@
   opacity: 0.5;
 }
 
-.btn-outline-secondary {
+#dropdownMenuButton {
   height: 6vh;
   color: white;
   background-color: hsla(0, 0%, 100%, .3);
+  border-radius: 3px;
 }
 
 .form-control {
@@ -44,4 +45,8 @@
   background-color: hsla(0, 0%, 100%, .3);
   border: 0;
   height: 6vh;
+}
+
+.btn-primary {
+  background-color: hsla(0, 0%, 100%, .3);
 }
