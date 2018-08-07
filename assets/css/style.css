@@ -15,7 +15,7 @@
 }
 
 #logoTrello {
-  background-image: url(imgs/trello-logo.png);
+  background-image: url(../imgs/trello-logo.png);
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: 80px 30px;
@@ -73,7 +73,7 @@
   opacity: 0.5;
 }
 
-#listBtn {
+.listBtn {
   background-color: green;
   margin-top: 10px;
 }
@@ -95,4 +95,40 @@
 
 .card {
   margin: 2px;
+}
+
+#addCard:hover {
+  color: #565555;
+  text-decoration: underline;
+  background-color: #D6C8C5;
+}
+
+.fa-star:hover {
+  color: yellow;
+}
+
+#rellenoMovil {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #infoBtn,
+  #inputSearch,
+  #wordTab,
+  #relleno {
+    display: none;
+  }
+  #logoTrello {
+    margin-left: 60px;
+  }
+  #rellenoMovil {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
 }
