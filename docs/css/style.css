@@ -1,7 +1,10 @@
 .container-fluid {
   background-color: #026aa7;
   height: 100vh;
-  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+}
+
+#wordTab {
+  font-size: 14px;
 }
 
 #headerLogos {
@@ -53,6 +56,21 @@
 
 .icons {
   margin: 2px;
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.words {
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#userCircle {
+  display: none;
 }
 
 .iconsInfo {
@@ -107,26 +125,61 @@
   color: yellow;
 }
 
-#rellenoMovil {
+.fa-user-circle {
+  margin: 0%;
+  size: 100%;
+}
+
+#secondIconsLine {
+  padding: 0%;
+}
+
+#homeworkRow {
+  padding: 0%;
+}
+
+#userProfile {
+  font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  line-height: 20px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 0;
+  padding: 2%;
+}
+
+#thirdIconsLine {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   #infoBtn,
   #inputSearch,
   #wordTab,
-  #relleno {
+  #relleno,
+  #finalCircle {
     display: none;
   }
   #logoTrello {
-    margin-left: 60px;
+    margin-left: auto;
   }
-  #rellenoMovil {
+  #userCircle {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 400;
     display: block;
+    margin-left: 0;
+  }
+  #thirdIconsLine {
+    display: block;
+  }
+  #plusWork {
+    width: 450%;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;

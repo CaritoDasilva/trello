@@ -48,14 +48,13 @@
         </div>
       </div>
 
-      <div class="col-4">
+      <div class="col-3" id="colLogo">
         <div id="logoTrello"></div>
       </div>
 
       <div class="col-4 iconsContent">
         <div class=" d-flex flex-row bd-highlight mb-3 ">
           <div class="col-8" id="relleno"></div>
-          <div class="col-6" id="rellenoMovil"></div>
           <div class="p bd-highlight icons ">
             <a class="btn btn-primary " href="# " role="button ">
               <i class="fas fa-plus "></i>
@@ -72,19 +71,19 @@
             </a>
           </div>
           <div class="p bd-highlight icons ">
-            <a class="btn btn-primary " href="# " role="button ">
+            <a class="btn btn-primary " href="# " role="button" id="userProfile">
               <i class="fas fa-user-circle"></i>
             </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="secondIconsLine">
       <div class="col-4">
         <div class=" d-flex flex-row bd-highlight mb-3 ">
           <div class="p bd-highlight">
             <a class="btn btn-primary iconsInfo" href="# " role="button ">
-              TABLERO
+              <span class="words">TABLERO</span>
             </a>
           </div>
           <div class="p bd-highlight">
@@ -94,36 +93,46 @@
           </div>
           <div class="p bd-highlight">
             <a class="btn btn-primary iconsInfo" href="# " role="button ">
-              PERSONAL
+              <span class="words">PERSONAL</span>
             </a>
           </div>
           <div class="p bd-highlight">
             <a class="btn btn-primary iconsInfo" href="# " role="button ">
-              <i class="fas fa-lock"></i> PRIVADO
+              <i class="fas fa-lock"></i>
+              <span class="words">PRIVADO</span>
             </a>
           </div>
 
           <div class="p bd-highlight">
-            <a class="btn btn-primary iconsInfo" href="# " role="button ">
+            <a class="btn btn-primary iconsInfo" href="# " role="button " id="finalCircle">
               <i class="fas fa-user-circle"></i>
             </a>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-8" id="homeworkDiv">
-
-            <input class="form-control form-control-lg" type="text" placeholder="+ Añada una lista" id="plusWork" onclick="drawCard()">
-          </div>
-        </div>
-
-
       </div>
-
-
+    </div>
+    <div class="row" id="thirdIconsLine">
+      <div class="col-3">
+        <div class="p bd-highlight">
+          <a class="btn btn-primary iconsInfo" href="# " role="button " id="userCircle">
+            <i class="fas fa-user-circle"></i>
+          </a>
+        </div>
+      </div>
     </div>
 
+    <div class="row" id="homeworkRow">
+      <div class="col-3" id="homeworkDiv">
+
+        <input class="form-control form-control-lg" type="text" placeholder="+ Añada una lista" id="plusWork" onclick="drawCard()">
+      </div>
+    </div>
+
+
   </div>
+
+
+
 
 
 
