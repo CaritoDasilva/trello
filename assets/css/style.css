@@ -24,10 +24,11 @@
   background-repeat: no-repeat;
   background-size: 80px 30px;
   height: 30px;
-  margin: 0 100%;
+  margin: 0 10%;
   top: 0;
   width: 80px;
   opacity: 0.5;
+  padding: 40%;
 }
 
 #dropdownMenuButton {
@@ -146,7 +147,16 @@
   font-weight: 400;
   background-color: transparent;
   border: 0;
-  padding: 2%;
+  padding: 3%;
+  margin: 2%;
+}
+
+.icons-icon {
+  margin: 0 2px;
+}
+
+.iconsContent {
+  padding: 0;
 }
 
 #thirdIconsLine {
@@ -191,5 +201,11 @@
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mb-3-icons {
+    margin-left: 40%;
   }
 }
