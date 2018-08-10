@@ -5,7 +5,7 @@
 // }
 // ]
 
-window.saveNameList = (nameList) => {
+function saveNameList(nameList) {
 
   nameList = [];
   nameList.push(titleList);
