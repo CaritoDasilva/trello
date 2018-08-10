@@ -5,11 +5,10 @@ function handlerDrawCard() {
 
 function handlerAddOneHomework() {
   listOfCards();
-  saveListOfHomeworks();
+  saveListOfCards();
 }
 
 function handlerListOfCards() {
-  saveListOfHomeworks();
-  cardCreator();
+
   drawCardsAdd();
 }
