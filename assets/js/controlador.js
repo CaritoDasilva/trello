@@ -1,4 +1,6 @@
 function handlerDrawInputFirst() {
+  homeworkDiv2.style.display = 'flex';
+  homeworkDiv2.style.flex = 'wrap';
   drawAddList();
 }
 
@@ -8,7 +10,7 @@ function handlerDrawAddList() {
 
 function handlerDrawCard() {
   drawAddCard();
-  saveNameList();
+  saveNameToList();
 }
 
 function handlerDrawAddCard() {
@@ -16,7 +18,7 @@ function handlerDrawAddCard() {
 }
 
 function handlerListOfCards() {
-  saveListOfCards();
+  saveList();
   drawListOfCards();
 }
 

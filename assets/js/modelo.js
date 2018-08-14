@@ -5,7 +5,7 @@
 // }
 // ]
 
-function saveNameList(nameList) {
+function saveNameToList(name, index) {
 
   nameList = [];
   nameList.push(titleList);
@@ -13,12 +13,19 @@ function saveNameList(nameList) {
 
 };
 
-function saveListOfCards(cardList) {
-  cardList = [];
-  cardList.push(titleCard);
+function saveList(newList) {
+  newList = [];
+  newList.push(titleCard);
   console.log(cardList);
 };
 
 function agregarTarjetaModelo(nombreTarjeta) {
 
 };
+
+class List {
+  constructor(cardList, titleCard) {
+    this.title = nameList[-1];
+    this.card = newList;
+  }
+}
