@@ -11,10 +11,14 @@ function saveNameList(nameList) {
   nameList.push(titleList);
   console.log(nameList);
 
-}
+};
 
 function saveListOfCards(cardList) {
   cardList = [];
   cardList.push(titleCard);
   console.log(cardList);
+};
+
+function agregarTarjetaModelo(nombreTarjeta) {
+
 };

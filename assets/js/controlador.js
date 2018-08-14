@@ -1,14 +1,27 @@
+function handlerDrawInputFirst() {
+  drawAddList();
+}
+
+function handlerDrawAddList() {
+  drawCard();
+}
+
 function handlerDrawCard() {
-  drawList();
+  drawAddCard();
   saveNameList();
 }
 
-function handlerAddOneHomework() {
-  listOfCards();
-  saveListOfCards();
+function handlerDrawAddCard() {
+  drawListOfCards();
 }
 
 function handlerListOfCards() {
+  saveListOfCards();
+  drawListOfCards();
+}
 
-  drawCardsAdd();
+function agregarTarjeta(nombreTarjeta) {
+  agregarTarjetaModelo(nombreTarjeta);
+  const listaTarjetas = obtenerListaTarjetas();
+  mostrarTarjetas(listaTarjetas);
 }

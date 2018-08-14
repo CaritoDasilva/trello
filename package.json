@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/CaritoDasilva/trello#readme",
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "jsdom": "^11.12.0"
   }
 }
