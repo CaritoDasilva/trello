@@ -34,5 +34,3 @@ class List {
     this.card = newList;
   }
 }
-
-// Acá debe ir una función que instancia un nuevo objeto cada vez
