@@ -1,4 +1,5 @@
 function handlerDrawInputFirst() {
+  homeworkDiv2.style.display = 'block';
   drawAddList();
 }
 
@@ -8,7 +9,7 @@ function handlerDrawAddList() {
 
 function handlerDrawCard() {
   drawAddCard();
-  saveNameList();
+  saveNameToList();
 }
 
 function handlerDrawAddCard() {
@@ -16,12 +17,12 @@ function handlerDrawAddCard() {
 }
 
 function handlerListOfCards() {
-  saveListOfCards();
+  saveList();
   drawListOfCards();
 }
 
-function agregarTarjeta(nombreTarjeta) {
-  agregarTarjetaModelo(nombreTarjeta);
-  const listaTarjetas = obtenerListaTarjetas();
+function agregarTarjeta(titleCard) {
+  agregarTarjetaModelo(titleCard);
+  titleCard = obtenerListaTarjetas();
   mostrarTarjetas(listaTarjetas);
 }

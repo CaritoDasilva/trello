@@ -5,7 +5,7 @@
 // }
 // ]
 
-function saveNameList(nameList) {
+function saveNameToList(name, index) {
 
   nameList = [];
   nameList.push(titleList);
@@ -13,12 +13,26 @@ function saveNameList(nameList) {
 
 };
 
-function saveListOfCards(cardList) {
-  cardList = [];
-  cardList.push(titleCard);
-  console.log(cardList);
+function saveList(newList) {
+  newList = [];
+  newList.push(titleCard);
+  console.log(newList);
 };
 
-function agregarTarjetaModelo(nombreTarjeta) {
-
+function addListModel() {
+  let listModel = new List();
 };
+
+//Aquí va a ir una función que cree un arreglo con todos los objetos
+function addObjectList(listArreglo) {
+  listArreglo = [];
+  listArreglo.push(List);
+}
+class List {
+  constructor(newList, nameList) {
+    this.title = nameList[-1];
+    this.card = newList;
+  }
+}
+
+// Acá debe ir una función que instancia un nuevo objeto cada vez

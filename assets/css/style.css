@@ -167,6 +167,16 @@
   display: none;
 }
 
+#homeworkDiv2 {
+  display: none;
+}
+
+#homeworkRow {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+}
+
 @media screen and (max-width: 480px) {
   #infoBtn,
   #inputSearch,
@@ -195,6 +205,11 @@
   .input-group-text {
     margin-left: 20%;
   }
+}
+
+#homeworkDiv {
+  height: 6vh;
+  float: left;
 }
 
 @media only screen and (max-width: 480px) {
